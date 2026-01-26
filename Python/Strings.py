@@ -42,7 +42,7 @@ message=message.replace('World','Universe')
 print(message)
 
 
-#concatinate
+#concatinate  /Formating
 
 greeting = 'Hello'
 name = 'Rohan'
@@ -61,5 +61,19 @@ print(message2)
 
 
 new = '{}, {}. Wlecome!'.format(greeting,name)
-
 print(new)
+
+f_string = f'{greeting}, {name}. Welcome!'
+print(f_string)
+
+
+#print list of attributres and methods of a variable
+n="Rohan"
+
+print(dir(n))
+
+#print the guide on how to use the methods and attributes of str
+print(help(str))
+
+#for specific guide
+print(help(str.lower))
