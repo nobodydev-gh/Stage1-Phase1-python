@@ -140,9 +140,34 @@
 
 #input from user
 
-a=input("Enter name:") # to take input in string 
-b=int(input("Enter a number:")) # to take input in integer
-c=float(input("Enter a number:")) # to take input in float
+# a=input("Enter name:") # to take input in string 
+# b=int(input("Enter a number:")) # to take input in integer
+# c=float(input("Enter a number:")) # to take input in float
 
  
 
+
+# slicing
+
+# name= "Rohan"
+# print(name[0:3])
+
+# print(name[-4:-1])
+# print(name[1:4])
+# print(name[:4])
+# print(name[1:])
+
+#skip value
+
+
+# word="amazing"
+# print(word[1:6:2])
+
+
+
+# String Functions
+name="Rohan"
+print(len(name))
+print(name.endswith("han"))
+print(name.startswith("Ro"))
+print(name.capitalize()) # for starting value
