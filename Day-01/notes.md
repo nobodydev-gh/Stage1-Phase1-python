@@ -1,12 +1,7 @@
-REVISION OF PYTHON BASICS
-========================
+Day 1 Notes
 
-REVISED TOPIC:
-
-1. printed "Hello, World!" using Python
-2. to comment single line adm multiple lines by
-    '#' in start of the line 
-    
-    (''') in the starting and 
-    ending of the multiple lines (''')    
-
+Revised Python fundamentals.
+Practiced input, output, and type casting.
+Wrote sum and even/odd programs.
+Ran code from terminal.
+Organized my repo structure.
