@@ -93,7 +93,8 @@ os.path.isfile('path')
 
 
 
-os.path.splittext('/tmp/test.txt')
+os.path.splitext('/tmp/test.txt')   
+
 
 
 
