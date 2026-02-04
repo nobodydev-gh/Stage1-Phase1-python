@@ -12,28 +12,54 @@ print(os.getcwd())
 print(os.listdir())     #Lists all the folders in the cwd
 
 
-# os.mkdir("OS_demo1/")   # create folder in working directory 
-
-# print(os.listdir()) 
-
-# os.makedirs("os_demo/demo1")  #create folder and also sub folders in the directorys
-
-# print(os.listdir()) 
 
 
 
-# os.rmdir("OS_demo")  # delete the folder only  (will not intermediate directories)
+os.mkdir("OS_demo1/")   # create folder in working directory 
 
-# os.removedirs("os_demo/demo1")    #delete the sub folder       (will intermediate directories)
-
-
-# os.remame("original_file_name","changed_file_name")
-
-# os.rename("OS_demo1","OS_demo")  # rename the file or folder
+print(os.listdir()) 
 
 
 
-# print(os.stat('OS_demo'))  #print info about the file or folder
+
+
+os.makedirs("os_demo/demo1")  #create folder and also sub folders in the directorys
+
+print(os.listdir()) 
+
+
+
+
+os.rmdir("OS_demo")  # delete the folder only  (will not intermediate directories)
+
+
+
+os.removedirs("os_demo/demo1")    #delete the sub folder       (will intermediate directories)
+
+
+
+
+os.remame("original_file_name","changed_file_name")
+
+
+
+
+
+os.rename("OS_demo1","OS_demo")  # rename the file or folder
+
+
+
+
+
+
+
+print(os.stat('OS_demo'))  #print info about the file or folder
+
+
+
+
+
+
 from datetime import datetime
 mod_time=os.stat('OS_demo').st_mtime
 print(datetime.fromtimestamp(mod_time))
@@ -62,6 +88,9 @@ os.path.isdir('path')
 
 #for file
 os.path.isfile('path')
+
+
+
 
 
 os.path.splittext('/tmp/test.txt')
