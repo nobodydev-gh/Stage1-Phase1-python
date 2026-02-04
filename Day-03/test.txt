@@ -1,5 +1,0 @@
-write something in this file
-This is a test file created to demonstrate file writing in Python.
-It contains multiple lines of text.
-Each line serves to illustrate how text can be written to a file.
-Feel free to modify the content as needed.
